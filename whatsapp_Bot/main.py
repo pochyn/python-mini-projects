@@ -4,7 +4,7 @@ from datetime import datetime
 now = datetime.now()
 
 chour = now.strftime("%H")
-mobile = input('Enter Mobile No of Receiver : ')
+mobile = input('Enter Mobile No of Receivedr : ')
 message = input('Enter Message you wanna send : ')
 hour = int(chour) + int(input('Enter hour : '))
 minute = int(input('Enter minute : '))
